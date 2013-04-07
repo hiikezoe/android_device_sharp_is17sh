@@ -17,7 +17,7 @@ BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/sharp/is17sh/recovery/keys.c
 BOARD_KERNEL_CMDLINE := console=ttyDCC0 androidboot.hardware=qcom
 BOARD_KERNEL_BASE := 0x00200000
 BOARD_KERNEL_PAGESIZE := 4096
-BOARD_FORCE_RAMDISK_ADDRESS := 0x0150
+BOARD_FORCE_RAMDISK_ADDRESS := 0x1500000
 
 # fix this up by examining /proc/mtd on a running device
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x105c0000
