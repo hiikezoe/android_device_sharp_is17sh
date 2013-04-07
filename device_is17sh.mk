@@ -6,6 +6,9 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 $(call inherit-product-if-exists, vendor/sharp/is17sh/is17sh-vendor.mk)
 
 PRODUCT_COPY_FILES += \
+  device/sharp/is17sh/root/ueventd.qcom.rc:root/ueventd.qcom.rc
+
+PRODUCT_COPY_FILES += \
   device/sharp/is17sh/system/SH_touchpanel.idc:system/usr/idc/SH_touchpanel.idc \
   device/sharp/is17sh/system/shtps_rmi.idc:system/usr/idc/shtps_rmi.idc
 
